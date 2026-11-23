@@ -1,0 +1,16 @@
+# Log & cache Airflow
+logs/
+__pycache__/
+*.pyc
+
+# Data hasil olahan (bisa dibuat ulang)
+data/processed/
+data/output/
+
+# Rahasia / pengaturan pribadi
+.env
+
+# Sistem & editor
+.DS_Store
+.vscode/
+.idea/
